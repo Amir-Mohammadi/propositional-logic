@@ -165,7 +165,7 @@ const generateColHeader = (data) => {
 const generateCol = (data) => {
     const isTruth = data == 1
     const classname = isTruth ? "true" : "false"
-    const value = isTruth ? "V" : "F"
+    const value = isTruth ? "T" : "F"
     const col = `<td class="data-${classname}">${value}</td>`
     return col
 }
