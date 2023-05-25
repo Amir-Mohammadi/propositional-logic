@@ -1,4 +1,1 @@
-**create propositional logic**
 
-
-*Setup*
